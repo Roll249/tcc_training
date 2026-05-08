@@ -1,0 +1,22 @@
+{
+  "name": "tcc-hoc-thuat-slides",
+  "version": "1.0.0",
+  "description": "Bộ slides Software Engineering Fundamentals cho CLB",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export",
+    "preview": "slidev preview"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.15.1",
+    "@slidev/theme-default": "*",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.59.1",
+    "typescript": "^5.7.0"
+  }
+}

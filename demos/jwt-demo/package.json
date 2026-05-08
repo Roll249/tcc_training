@@ -1,0 +1,12 @@
+{
+  "name": "jwt-demo",
+  "version": "1.0.0",
+  "description": "JWT Inspect & Tamper Demo",
+  "main": "jwt_demo.js",
+  "scripts": {
+    "start": "node jwt_demo.js"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  }
+}
